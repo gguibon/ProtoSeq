@@ -1,5 +1,5 @@
 # ProtoSeq
-This is the PyTorch code for the paper `Few-Shot Emotion Recognition in Conversation with Sequential Prototypical Networks` presented at [EMNLP 2021](https://2021.emnlp.org/).
+This is the PyTorch code for the paper [Few-Shot Emotion Recognition in Conversation with Sequential Prototypical Networks](https://arxiv.org/abs/2109.09366) presented at [EMNLP 2021](https://2021.emnlp.org/).
 
 This code presents our ProtoSeq model along with several baselines. This model is a variant of Prototypical Networks (Jake Snell et al., 2017) few-shot sequence labelling task. The code is made to run on DailyDialog (Li Yanran et al., 2017) and on the Live Chat Customer Service dataset. The latter is a proprietary one, thus you will be able to run the code on the former dataset.
 
@@ -8,7 +8,12 @@ Some parts of the code structure are inspired from (Bao et al. 2020). If you do 
 ## Citing
 If you find this repo or paper useful, please cite the following paper:
 ```
-@inproceedings{guibon:hal-03344680, TITLE = {{Few-Shot Emotion Recognition in Conversation with Sequential Prototypical Networks}}, AUTHOR = {Guibon, Ga{\"e}l and Labeau, Matthieu and Flamein, H{\'e}l{\`e}ne and Lefeuvre, Luce and Clavel, Chlo{\'e}}, URL = {https://hal.archives-ouvertes.fr/hal-03344680}, BOOKTITLE = {{The 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP 2021)}}, ADDRESS = {Punta Cana, Dominican Republic}, YEAR = {2021}, MONTH = Nov, HAL_ID = {hal-03344680}, HAL_VERSION = {v1},}
+@inproceedings{guibon2021few,
+  title={Few-Shot Emotion Recognition in Conversation with Sequential Prototypical Networks},
+  author={Guibon, Ga{\"e}l and Labeau, Matthieu and Flamein, H{\'e}l{\`e}ne and Lefeuvre, Luce and Clavel, Chlo{\'e}},
+  booktitle={The 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP 2021)},
+  year={2021}
+}
 ```
 
 # Usage
